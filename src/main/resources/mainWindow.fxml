@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.train.transportation.controllers.MainWindow"
+            >
+        <HBox>
+            <Label text="User"/>
+            <TextArea fx:id="userName"/>
+            <Button text="Private office" fx:id="privateOffice"/>
+        </HBox>
+
+        <TableView>
+            <columns>
+                <TableColumn text="№">
+                </TableColumn>
+
+                <TableColumn text="Train">
+                </TableColumn>
+
+                <TableColumn text="City destination">
+                </TableColumn>
+
+                <TableColumn text="City source">
+                </TableColumn>
+
+                <TableColumn text="Path">
+                </TableColumn>
+
+                <TableColumn text="Platform">
+                </TableColumn>
+
+                <TableColumn text="Time arrival">
+                </TableColumn>
+            </columns>
+        </TableView>
+
+
+</VBox>

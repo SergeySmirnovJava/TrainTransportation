@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.train.transportation.controllers.TransportationsStatistics">
+        <VBox>
+            <HBox>
+                <Label text="Cities with multiple stations"/>
+                <Button text="Get information" fx:id="stationsInfo"/>
+            </HBox>
+            <TableView>
+                <columns>
+                    <TableColumn text="City">
+                    </TableColumn>
+                    <TableColumn text="Station list">
+                    </TableColumn>
+                </columns>
+            </TableView>
+        </VBox>
+
+         <VBox>
+            <HBox>
+                <Label text="Cities with canceled flights"/>
+                <Button text="Get information" fx:id="deprecatedFlight"/>
+            </HBox>
+            <TableView>
+                <columns>
+                    <TableColumn text="City">
+                    </TableColumn>
+                    <TableColumn text="Number of canceled flights">
+                    </TableColumn>
+                </columns>
+            </TableView>
+         </VBox>
+
+        <VBox>
+            <HBox>
+                <Label text="Shortest way"/>
+                <Button text="Get information" fx:id="shortestWay"/>
+            </HBox>
+            <TableView>
+                <columns>
+                    <TableColumn text="City">
+                    </TableColumn>
+                    <TableColumn text="Point of arrival">
+                    </TableColumn>
+                    <TableColumn text="Average duration">
+                    </TableColumn>
+                </columns>
+            </TableView>
+        </VBox>
+
+        <VBox>
+            <HBox>
+                <Label text="Number of canceled flights"/>
+                <Button text="Get information" fx:id="canceledNumber"/>
+            </HBox>
+            <TableView>
+                <columns>
+                    <TableColumn text="Month">
+                    </TableColumn>
+                    <TableColumn text="Number of cancellations">
+                    </TableColumn>
+                </columns>
+            </TableView>
+        </VBox>
+
+
+</VBox>
