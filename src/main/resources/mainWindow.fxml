@@ -11,9 +11,8 @@
             fx:controller="com.train.transportation.controllers.MainWindow"
             >
         <HBox>
-            <Label text="User"/>
-            <TextArea fx:id="userName"/>
-            <Button text="Private office" fx:id="privateOffice"/>
+            <Label text="Statistics and management"/>
+            <Button text="Go" fx:id="statisticsManagement" onAction="#openTransportationStatistics"/>
         </HBox>
 
         <TableView>

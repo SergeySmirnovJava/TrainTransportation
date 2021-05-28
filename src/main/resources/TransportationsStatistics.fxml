@@ -12,7 +12,7 @@
         <VBox>
             <HBox>
                 <Label text="Cities with multiple stations"/>
-                <Button text="Get information" fx:id="stationsInfo"/>
+                <Button text="Get information" fx:id="stationsInfo" onAction="#getStationsInfo"/>
             </HBox>
             <TableView>
                 <columns>
@@ -27,7 +27,7 @@
          <VBox>
             <HBox>
                 <Label text="Cities with canceled flights"/>
-                <Button text="Get information" fx:id="deprecatedFlight"/>
+                <Button text="Get information" fx:id="deprecatedFlight" onAction="#getCancelledFlights"/>
             </HBox>
             <TableView>
                 <columns>
@@ -42,7 +42,7 @@
         <VBox>
             <HBox>
                 <Label text="Shortest way"/>
-                <Button text="Get information" fx:id="shortestWay"/>
+                <Button text="Get information" fx:id="shortestWay" onAction="#getShortestWays"/>
             </HBox>
             <TableView>
                 <columns>
@@ -59,7 +59,7 @@
         <VBox>
             <HBox>
                 <Label text="Number of canceled flights"/>
-                <Button text="Get information" fx:id="canceledNumber"/>
+                <Button text="Get information" fx:id="canceledNumber" onAction="#getNumberOfFlights"/>
             </HBox>
             <TableView>
                 <columns>
