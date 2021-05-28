@@ -39,6 +39,9 @@
                 </TableColumn>
             </columns>
         </TableView>
-
+        <HBox>
+            <Label text="Load files from server ..."/>
+            <ProgressBar />
+        </HBox>
 
 </VBox>
